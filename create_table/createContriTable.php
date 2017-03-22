@@ -31,5 +31,5 @@ if ($mysqli->query($sql1) === TRUE) {
     echo "ERROR";
 }
 
-$sqli->close();
+$mysqli->close();
 ?>
